@@ -3,10 +3,20 @@ import Counter from "./subcomponents/Counter";
 
 function Counters(){
 
-    const [numbers, setNumbers] = useState({num10: 0}, {num50: 0}, {num200: 0})
+    const [numbers, setNumbers] = useState({num10: 0, num50: 0, num200: 0})
 
-    function increase10(num){}
-    function decrease10(num){}
+    function increase10(num){
+        num++;
+        setNumbers(prevValue => {
+            return {...prevValue, num10: num}
+        })
+    }
+    function decrease10(num){
+        num--;
+        setNumbers(prevValue => {
+            return {...prevValue, num10: num}
+        })
+    }
 
     return (
         <section className="counters-section">
