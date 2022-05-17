@@ -2,13 +2,13 @@ import headerItems from '../objects/header';
 
 function Header(){
     return (
-        <header>
+        <header key={'3'}>
             <nav>
                 <p>
                     Counters App
                 </p>
                 <ul>
-                    {headerItems.map(item => {return <li>{item}</li>})}
+                    {headerItems.map((item, index) => {return <li key={index}>{item}</li>})}
                 </ul>
             </nav>
         </header>
