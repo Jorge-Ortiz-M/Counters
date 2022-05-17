@@ -59,3 +59,37 @@ footer p{
   font-size: 0.9rem;
   margin: auto auto auto auto;
 }
+
+/* -------- COUNTERS SECTION Component. ------------ */
+
+.counters-section{
+  color: #000000;
+  padding: 20px;
+}
+
+/* -------- COUNTER Component. ------------ */
+
+.counter-card{
+  background-color: #ffffff;
+  display: inline-flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#btn-success, #btn-danger{
+  border: none;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 3px #bfbfbf;
+  cursor: pointer;
+}
+
+#btn-success{
+  background-color: #1eff00;
+}
+
+#btn-danger{
+  background-color: #ff0000;
+}

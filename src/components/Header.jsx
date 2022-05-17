@@ -2,7 +2,7 @@ import headerItems from '../objects/header';
 
 function Header(){
     return (
-        <header key={'3'}>
+        <header>
             <nav>
                 <p>
                     Counters App
