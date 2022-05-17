@@ -15,14 +15,6 @@ code {
     monospace;
 }
 
-header{
-  border: 1px solid #ff0000;
-}
-
-nav{
-  border: 1px solid #0000ff;
-}
-
 /* -------- HEADER Component. ------------ */
 
 nav{
