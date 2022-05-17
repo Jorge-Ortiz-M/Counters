@@ -65,12 +65,14 @@ footer p{
 .counters-section{
   color: #000000;
   padding: 20px;
+  text-align: center;
 }
 
 /* -------- COUNTER Component. ------------ */
 
 .counter-card{
   background-color: #ffffff;
+  margin: 10px;
   display: inline-flex;
   flex-direction: column;
   padding: 20px;
