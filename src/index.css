@@ -46,3 +46,16 @@ nav ul li{
   margin-right: 20px;
   font-size: .9rem;
 }
+
+/* -------- FOOTER Component. ------------ */
+
+footer{
+  background-color: #4c0052;
+  display: flex;
+  padding: 20PX;
+}
+
+footer p{
+  font-size: 0.9rem;
+  margin: auto auto auto auto;
+}
