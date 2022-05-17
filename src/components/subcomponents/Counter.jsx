@@ -10,8 +10,8 @@ function Counter(props){
                 <strong>{props.number}</strong>
             </p>
             <div>
-                <button id='btn-success' onClick={() => (props.increase10(props.number))}><AddCircleIcon /></button>
-                <button id='btn-danger' onClick={() => (props.decrease10(props.number))}><RemoveCircleIcon /></button>
+                <button id='btn-danger' onClick={() => (props.decrease(props.number))}><RemoveCircleIcon /></button>
+                <button id='btn-success' onClick={() => (props.increase(props.number))}><AddCircleIcon /></button>
             </div>
         </div>
     );
